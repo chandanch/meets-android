@@ -38,6 +38,7 @@ public abstract class ApiMethod<RESULT> extends GoogleHttpClientSpiceRequest<RES
     /////// FIXED PARAMS //////
     public static final Map<String,Object> fixedParams = Collections.synchronizedMap(new HashMap<String, Object>());
     public static final List<String> fixedUrlExtraSegments = Collections.synchronizedList(new ArrayList<String>());
+    public Map<String,String>getproductimages = new HashMap<String,String>();
 
     /////// BASIC AUTHORIZATION ///////
     private static String basicAuthName;
